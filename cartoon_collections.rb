@@ -3,11 +3,14 @@ def roll_call_dwarves(array)# code an argument here
 end
 
 def summon_captain_planet(array)
-  myA = %w[this is a long string for tests]
-  array.collect! {|name| name + "!"}
+
+  array.collect! {|name| name}
   array
 
 end
+myA = %w[this is a long string for tests]
+summon_captain_planet(myA)
+
 
 def long_planeteer_calls# code an argument here
   # Your code here
