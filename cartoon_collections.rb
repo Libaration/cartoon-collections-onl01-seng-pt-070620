@@ -8,13 +8,13 @@ def summon_captain_planet(array)
   array
 
 end
-myA = %w[this is a long string for tests]
-summon_captain_planet(myA)
+
 
 
 def long_planeteer_calls# code an argument here
   # Your code here
 end
+myA = %w[this is a long string for tests]
 
 def find_the_cheese# code an argument here
   # the array below is here to help
