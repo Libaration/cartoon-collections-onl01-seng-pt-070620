@@ -11,8 +11,15 @@ end
 
 
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(array)
+    array.any? do |thing|
+    if thing.length > 4
+      true
+    else
+      false
+    end
+
+
 end
 myA = %w[this is a long string for tests]
 
