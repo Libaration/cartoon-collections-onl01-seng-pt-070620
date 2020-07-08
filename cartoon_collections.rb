@@ -21,9 +21,11 @@ def long_planeteer_calls(array)
   end
 end
 
-
-def find_the_cheese# code an argument here
-  # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
+##myA = %w[these are strings gouda and yeah]
+##cheese_types = ["cheddar", "gouda", "camembert"]
+def find_the_cheese(array)
+  array.find {|things| things=="gouda" || things == "cheddar" || things == "camembert"}
+  
+  
 end
-myA = %w[this is a long string for tests]
+
