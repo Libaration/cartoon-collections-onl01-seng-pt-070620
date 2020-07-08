@@ -18,8 +18,7 @@ def long_planeteer_calls(array)
     else
       false
     end
-
-
+  end
 end
 myA = %w[this is a long string for tests]
 
